@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+main{
+    height: 70vh;
+    width: 100%;
+    background: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    /* background: pink; */
+   padding-top: 10px;
+   padding-left: 10%;
+   display: flex;
+}
+#div1{
+    height: 10vh;
+    width: 30%;
+}
+#div2{
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div2 :hover{
+    border: 1px solid;
+    background:#8e44ad;
+    /* padding: 10px;
+    border-radius: 5px; */
+}
+#p1{
+    border: 1px solid;
+    background:#8e44ad   ;
+    padding: 10px;
+    border-radius: 5px;
+    /* padding-top: 5%; */
+}
+section{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    /* background: pink; */
+}
+#sectiondiv1{
+    height: 60vh;
+    width: 50% ;
+     display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    /* background: #000; */
+}
+#sectiondiv1>h1{
+    /* color: black; */
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-bottom: 8px;
+}
+#sectiondiv1>p{
+    margin-left: 7%;
+    margin-bottom: 50px;
+}
+#sectiondiv1>aside{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 7%;
+    gap: 90px;
+}
+#sectiondiv1>aside>div{
+   border: 1px solid;
+   padding: 9px;
+}
+#sectiondiv1>aside>#btn{
+   background: #8e44ad;
+}
+#sectiondiv2{
+    width: 50%;
+    height: 60vh;
+    /* background: pink; */
+}
+#sectiondiv2>img{
+    padding-left: 175px;
+    padding-top: 20px;
+
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    background:#8e44ad;
+     padding: 40px 0;
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.item1{
+    max-width: 250px;
+}
+.item1 i{
+    margin-top: 10px;
+    font-size: 30px;
+    display: block;
+}
+.item1 p{
+     font-size: 14px;
+    margin: 0;
+}
